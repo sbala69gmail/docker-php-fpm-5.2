@@ -137,7 +137,7 @@ WORKDIR /var/www/html
 COPY data/docker-php-* /usr/local/bin/
 COPY data/php-fpm /usr/local/sbin/php-fpm
 COPY data/php-fpm.conf /usr/local/etc/
-COPY data/php.ini /usr/local/etc/php/php.ini
+# COPY data/php.ini /usr/local/etc/php/php.ini
 
 
 EXPOSE 9000
